@@ -221,15 +221,9 @@ public class MathMethods extends JFrame {
 	        System.exit(0); // Exit the application.
 	    }//GEN-LAST:event_btnExitActionPerformed
 	    static public boolean inCheck(String in){
-	    	Double temp = .0;
 	    	try {
 	    		temp = Double.parseDouble(in);
-	    		if(temp>=0 && temp <=1000) {
 	    		return true;
-	    		}
-	    		else {
-	    			return false;
-	    		}
 	    	}
 	    	catch (Exception e ) {
 	    		return false;
