@@ -67,7 +67,6 @@ public class MathMethods extends JFrame {
 		JButton btnRound = new JButton("Round");
 		btnRound.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-//////////////////////////
 				in = txtIn.getText();
 				if(inCheck(in)) {
 					temp = Double.parseDouble(in);
@@ -85,7 +84,6 @@ public class MathMethods extends JFrame {
 		JButton btnSqrt = new JButton("sqrt");
 		btnSqrt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
- ////////////////////////
             	in = txtIn.getText();
 				if(inCheck(in)) {
 					temp = Double.parseDouble(in);
@@ -103,7 +101,6 @@ public class MathMethods extends JFrame {
 		JButton btnCeiling = new JButton("Ceiling");
 		btnCeiling.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-/////////////////////////
             	in = txtIn.getText();
 				if(inCheck(in)) {
 					temp = Double.parseDouble(in);
@@ -121,7 +118,6 @@ public class MathMethods extends JFrame {
 		JButton btnFloor = new JButton("Floor");
 		btnFloor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-////////////////////////
             	in = txtIn.getText();
 				if(inCheck(in)) {
 					temp = Double.parseDouble(in);
@@ -139,7 +135,6 @@ public class MathMethods extends JFrame {
 		JButton btnRandom = new JButton("Random");
 		btnRandom.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-///////////////////////
             	in = txtIn.getText();
 				if(inCheck(in)) {
 					temp = Double.parseDouble(in);
@@ -157,7 +152,6 @@ public class MathMethods extends JFrame {
 		JButton btnAdd5 = new JButton("add 5");
 		btnAdd5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-///////////////////////
             	in = txtIn.getText();
 				if(inCheck(in)) {
 					temp = Double.parseDouble(in);
@@ -175,7 +169,6 @@ public class MathMethods extends JFrame {
 		JButton btnDouble = new JButton("double");
 		btnDouble.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-//////////////////////
 				in = txtIn.getText();
 				if(inCheck(in)) {
 					temp = Double.parseDouble(in);
@@ -221,8 +214,9 @@ public class MathMethods extends JFrame {
 	        System.exit(0); // Exit the application.
 	    }//GEN-LAST:event_btnExitActionPerformed
 	    static public boolean inCheck(String in){
+	    	double a =.0;
 	    	try {
-	    		temp = Double.parseDouble(in);
+	    		a = Double.parseDouble(in);
 	    		return true;
 	    	}
 	    	catch (Exception e ) {
