@@ -10,7 +10,13 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
+/**
+File Name: MathMethods
+Programmer:	Lorrin Shen
+Date:		March 4, 2022
+Description:	This is an application that shows some math methods.
+Version: 1.0
+*/
 public class MathMethods extends JFrame {
 
 	private JPanel contentPane;
